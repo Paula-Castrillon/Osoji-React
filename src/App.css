@@ -1,0 +1,163 @@
+:root {
+    --color-verde-dominante-:hsl(147, 100%, 19%);
+    --color-beige-dominante-:hsl(60, 16%, 84%);
+    --color-blanco-secundario-:hsl(0, 0%, 100%);
+    --color-negro-secundario-:hsl(0, 0%, 0%);
+    --color-verde1-neutral-:hsl(131, 18%, 64%);
+    --color-verde2-neutral-:hsl(139, 20%, 53%);
+    --color-verde3-neutral-:hsl(143, 30%, 42%);
+}
+@font-face {
+    font-family: "Agalega";
+    src: url(../public/Tipografias/AGALEGA-Regular.ttf);
+}
+@font-face{
+    font-family: "Lekton-italic";
+    src: url(../public/Tipografias/Lekton-Italic.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body{
+    background: var(--color-beige-dominante-);
+    overflow-x: hidden;
+}
+/* Header */
+.header{
+    background: var(--color-blanco-secundario-);
+}
+.titulo-1{
+    color: var(--color-negro-secundario-);
+    font-size: 10pt;
+    font-family: "Agalega";
+}
+.titulo-1:hover{
+    transform: translateY(-5px);
+    color: var(--color-verde3-neutral-);
+}
+/* 2 */
+.titulos{
+    font-size: 20pt;
+    font-family: "Agalega";
+    color: var(--color-negro-secundario-);
+}
+.parrafo-2{
+    font-size: 15pt;
+    font-family: "Lekton-italic";
+    text-align: justify;
+}
+.btn-1{
+    border-radius: 1rem;
+    font-size: 20pt;
+    background: transparent;
+    font-family: "Agalega";
+    color: var(--color-negro-secundario-) ;
+    border: 5px solid var(--color-verde-dominante-);
+}
+.btn-1:hover{
+    background: var(--color-verde3-neutral-);
+    border: 5px solid var(--color-verde3-neutral-);
+}
+/* fin 2 */
+.articulo{
+    font-size: 15pt;
+    font-family: "Lekton-italic";
+    color: var(--color-blanco-secundario-);
+    background: var(--color-negro-secundario-);
+}
+/* 3 */
+.m-v-o{
+    background: var(--color-verde1-neutral-);
+}
+.tit-3{
+    font-family: "Agalega";
+    color: var(--color-blanco-secundario-);
+}
+.titulo-3{
+    color: var(--color-negro-secundario-);
+    font-family: "Agalega";
+}
+.parrafo-3{
+    font-family: "Lekton-italic";
+    font-size: 17pt;
+    text-align: justify;
+}
+/*  */
+.nombre-juego{
+    font-size: 17pt;
+    font-family: "Agalega";
+    color: var(--color-blanco-secundario-);
+    background: var(--color-negro-secundario-);
+}
+/*  */
+.linea-personaje{
+    background: var(--color-negro-secundario-);
+}
+.t-personaje{
+    font-size: 25pt;
+    font-family: "Agalega";
+    color: var(--color-blanco-secundario-);
+}
+/* 4 */
+.parrafo-4{
+    text-align: justify;
+    font-family: "Lekton-italic";
+}
+.btn-mj{
+    border-radius: 1rem;
+    font-size: 20pt;
+    background: transparent;
+    font-family: "Agalega";
+    color: var(--color-negro-secundario-) ;
+    border: 5px solid var(--color-verde-dominante-);
+}
+.btn-mj:hover{
+    background: var(--color-verde3-neutral-);
+    border: 5px solid var(--color-verde3-neutral-);
+}
+/* 5 */
+.informacion-personaje{
+    background: var(--color-verde1-neutral-);
+}
+.parrafo-5{
+    text-align: justify;
+    font-family: "Lekton-italic";
+}
+.titulo-peronajes{
+    font-size: 25pt;
+    font-family: "Agalega";
+}
+.img-personajes:hover{
+    transform: translateY(-6px);
+}
+/* modales */
+.titulo-modal{
+    font-family: "Agalega";
+    color: var(--color-verde-dominante-);   
+}
+.parrafo-modal{
+    font-size: 15pt;
+    font-family: "Lekton-italic";
+}
+/* Footer */
+.titulo-footer{
+    font-family: "Agalega";
+    font-size: 17pt;
+}
+.pie-dp{
+    background: var(--color-verde3-neutral-);
+}
+.texto-correos{
+    font-family: "Lekton-italic";
+}
+.btn-footer:hover{
+    transform: translateY(-10px);
+}
+.logo:hover{
+    transform: translateY(-8px);
+
+}
